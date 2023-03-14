@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Diseño 4/style/style.css">
+    <title>Diseño 4</title>
+</head>
+
+<body>
+    <div class="padre">
+        <div class="left">
+            <div class="asidebar">
+                <button class="btn-1">↑</button>
+                <br>
+                <button class="btn-2">↓</button>
+            </div>
+        </div>
+        <main>
+            <div class="header">
+                <h1>Basic Details</h1>
+            </div>
+            <div class="right">
+                <div class="formulario">
+                    <div class="Mitad izquierdo">
+                        <label for="first-name">First name</label>
+                        <br>
+                        <input type="name" name="first-name" role="first-name" id="first-name" required minlength="3"
+                            maxlength="20">
+                        <br>
+                        <label for="email">Email id</label>
+                        <br>
+                        <input type="email" class="emai-l" required>
+                        <br>
+                        <label for="country">Country</label>
+                        <br>
+                        <select class="sle" name="contry" id="contry" required>
+                            <option value="opcion1">India</option>
+                        </select>
+                        <br>
+                        <label for="phone">Phone Number</label>
+                        <br>
+                        <input type="tel" name="phone" role="phone" id="phone" required pattern="\(\d{3}\)\d{3}-\d{2}-\d{2}"  maxlength="10">
+                        <br>
+                        <button class="reset">Reset All</button>
+                    </div>
+                    <div class="Mitad derecho">
+                        <label for="last-name">Last name</label>
+                        <br>
+                        <input type="name" name="last-name" role="last-name" id="last-name" required minlength="2"
+                            maxlength="20">
+                        <br>
+                        <label for="your">Your User ID</label>
+                        <br>
+                        <input type="your" name="your" role="your" id="your" required minlength="10" maxlength="20">
+                        <br>
+                        <label for="stype">Sttate</label>
+                        <label class="lcity" for="city">City</label>
+                        <br>
+                        <select name="tipo" id="stype">
+                            <option value="opcion1">Select source</option>
+                        </select>
+                        <select class="selectitos" name="city" id="stype">
+                            <option value="opcion1">Pune</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="text" placeholder="Reference code">
+                        <button class="continuo">Continue</button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>

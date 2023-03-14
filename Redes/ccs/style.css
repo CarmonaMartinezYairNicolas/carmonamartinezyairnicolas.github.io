@@ -1,0 +1,81 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    display: inline-block;
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+}
+.titulo{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*Header*/
+.imagen{
+    background-color: rgb(119, 136, 153);
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+}
+.text_header{
+    display: inline-block;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    margin-right: 10px;
+}
+ nav a:hover{
+    text-decoration: overline;
+    color: royalblue;
+ }
+.descripcion{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.imagen_1{
+    width: 350px;
+    height: 350px;
+}
+.descripcion .contenido-descripcion{
+    width: 48%;
+}
+.contenido-descripcion p{
+    padding: 0px 0px 30px 15px;
+}
+.contenedor_text{
+    background-color: rgb(210, 210, 210);
+}
+.imagen-pregunta{
+    display: inline-flex;
+    justify-content: space-;
+}
+
+ /* Footer */
+
+ .footer{
+    flex-direction: column;
+    border: none;
+
+}
+
+.pie-pag{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pie-pag h4{
+    border: none;
+}
+
+.pie-pag p{
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+.
+.final{
+    font-size: 20px;
+}

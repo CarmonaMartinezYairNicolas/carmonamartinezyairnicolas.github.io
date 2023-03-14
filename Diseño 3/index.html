@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Diseño 3</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">ADMIN</a></li>
+                <li><a href="#">RECORDS</a></li>
+                <li><a href="#">INTERACT</a></li>
+                <li><a href="#">CALENDAR</a></li>
+                <li><a href="#">PROVIDERS</a></li>
+                <li><a href="#">SETTINGS</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <a href="#" class="btn"><button>
+                <img src="./img/perfil.png" alt="">
+                Iniciar sesion</button></a>
+    </header>
+    <main>
+        <aside class="aside">
+            <nav>
+                <ul class="ul-nav">
+                    <li><a href="#">
+                            <img src="./img/grupo.png" alt="">
+                            CLIENTS</a>
+                    </li>
+                    <br>
+                    <li><a href="#">
+                            <img src="./img/latido.png" alt="">
+                            MONITORING</a>
+                    </li>
+                    <br>
+                    <li><a href="#">
+                            <img src="./img/grafico.png" alt="">
+                            REPORTING</a>
+                    </li>
+                    <br>
+                    <li><a href="#">
+                            <img src="./img/maps.png" alt="">
+                            LOCATIONS</a>
+                    </li>
+                    <br>
+                    <li><a href="#">
+                            <img src="./img/reporte.png" alt="">
+                            LOGS</a>
+                    </li>
+                    <br>
+                    <li class="pie"><a href="#">
+                            <img src="./img/brujula.png" alt="">
+                            Need Help?</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="principal">
+            <div class="cabecera">
+                <nav class="nav1">
+                    <ul>
+                        <li><a href="#">Alerts</a></li>
+                        <li><a href="#">Tasks</a></li>
+                        <li><a href="#">Risk</a></li>
+                        <li><a href="#">Authorizations</a></li>
+                        <li><a href="#">Vitals</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href="#">Resolved</a></li>
+                        <li><a href="#">Underresolved</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="formulario">
+                <div class="primerline">
+                    <div class="first">
+                        <label for="first-name">First name</label>
+                        <br>
+                        <br>
+                        <input type="name" name="first-name" role="first-name" id="first-name" required minlength="8"
+                            maxlength="15" placeholder="john" class="cudrados">
+                    </div>
+                    <div class="last">
+                        <label for="last-name">Last name</label>
+                        <br>
+                        <br>
+                        <input type="name" name="last-name" role="last-name" id="last-name" required minlength="8"
+                            maxlength="15" placeholder="Doe" class="cudrados">
+                    </div>
+                    <div class="start">
+                        <label for="date">Start date</label>
+                        <br>
+                        <br>
+                        <input type="date" class="cudrados" id="date">
+                    </div>
+                    <div class="end">
+                        <label for="end-date">End date</label>
+                        <br>
+                        <br>
+                        <input type="date" class="cudrados" id="end-date">
+
+                    </div>
+                </div>
+                <br>
+                <label for="range" class="txt">Date range</label>
+                <label for="source" class="txt parte2">Source</label>
+                <br>
+                <input type="submit" value="1 day" class="btn" id="range">
+                <input type="submit" value="7 days" class="btn" id="range">
+                <input type="submit" value="30 days" class="btn" id="range">
+                <input type="submit" value="90 days" class="btn" id="range">
+                <input type="submit" value="All" class="btn" id="range">
+                <select name="tipo" id="source" required contenteditable="s">
+                    <option value="opcion1">Select source</option>
+                    <input type="submit" value="Search" class="botoncito">
+                    <input type="submit" value="X" class="cancel">
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Date/Times of alerts</th>
+                        <th>Client name</th>
+                        <th>Source</th>
+                        <th>Value</th>
+                        <th>Alert</th>
+                        <th>Alert type</th>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td class="txt-table">$ #UI</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="txt-table">Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

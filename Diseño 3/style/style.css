@@ -1,0 +1,265 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5px 1%;
+}
+.header .logo .img{
+    height: 70px;
+    width: auto;
+}
+.header .nav-links{
+    list-style: none;
+
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 5px;
+    opacity: .7;
+    
+}
+.header .nav-links li:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    text-decoration: none;
+    color: black;
+}
+.header .nav-links a:hover{
+    color: blue;
+}
+.header .btn button{
+    font-weight: 900;
+    color: black;
+    background:whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: aqua;
+    color: #ffbc0f;
+    transform: scale(1.1);
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+}
+aside{
+    float: left;
+    width: 200px;
+    min-height: 540px;
+    background-color: #015fae;
+}
+.aside .ul-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.aside .ul-nav li:hover{
+    background-color:#66a9db; 
+}
+.aside .ul-nav .pie{
+    margin-top: 246px;
+    background-color: #004aa5;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,247,246,255)
+}
+.cabecera{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,247,246,255);
+    border-top: 1px solid rgba(239,238,239,255);
+    border-bottom: 1px solid rgba(239,238,239,255);
+}
+.cabecera .nav1{
+    list-style: none;
+    width: 70%;
+}
+.cabecera .nav1 li{
+    display: inline-block;
+    padding: 10px 30px;
+    opacity: .7;
+}
+.cabecera .nav1 li:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+.cabecera .nav1 a{
+    font-size: 700;
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+}
+.cabecera .nav1 a:hover{
+    color:black;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5392aa;
+}
+.cabecera .nav2{
+    list-style: none;
+    width: 30%;
+    align-items:self-start;
+    margin-left: 200px;
+}
+.cabecera .nav2 li{
+    display: inline-block;
+    padding: 10px 30px;
+    opacity: .7;
+}
+.cabecera .nav2 li:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.cabecera .nav2 a{
+    font-size: 700;
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+}
+.cabecera .nav2 a:hover{
+    color: blue;
+}
+.formulario{
+    height: 190px;
+    width: 1090px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border: 2px;
+    background-color: white;
+}
+
+ .formulario .primerline{
+    display: flex;
+    justify-content: space-betw;
+    align-items: self-start;
+    margin-left: 30px;
+    
+}
+
+.formulario .primerline .first{
+    flex-grow: 2;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.formulario .primerline .last{
+    flex-grow: 2;
+    width: 200px;
+}
+
+.formulario .primerline .start{
+    flex-wrap: 1;
+    margin-right: 90px;
+}
+
+.formulario .primerline .end{
+    flex-wrap: 1;
+    margin-right: 70px;
+}
+
+.formulario .txt{
+    margin-left: 40px;
+    justify-content:left;
+}
+
+.formulario .parte2{
+    margin-left: 584px;
+}
+
+.formulario  select{
+    margin-left: 80px;
+}
+
+.formulario .btn{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width:70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.formulario .btn:hover{
+    color:rgba(74,120,147,255);
+    transform: scale(1.1);
+    border: 1px solid rgba(74,120,147,255);
+    
+}
+
+.formulario .botoncito{
+    margin-left: 50px;
+    background-color:rgb(0, 195, 255);
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.formulario .botoncito:hover{
+    transform: scale(1.1);
+}
+
+.formulario .cancel{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: .5px solid black;
+    background-color: transparent;
+}
+.formulario .cancel:hover{
+    transform: scale(1.1);
+    border: .5px solid red;
+    color: red;
+}
+
+.principal .table{
+    height: 250px;
+    width: 1090px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border: 2px;
+    background-color: white;
+    border: 2px solid rgba(239,238,239,255);
+}
+.principal table{
+    width: 100%;
+	height: 100%;
+    border-left: sólido 2px negro;
+}
+.principal table td{
+    border-left: 2px solid rgba(239,238,239,255);
+    border-bottom: 2px solid rgba(239,238,239,255);
+    text-align: center;
+}
+.principal table .txt-table{
+    color: red;
+}
+.principal table th{
+    border-left: 2px solid rgba(239,238,239,255);
+    border-bottom: 2px solid rgba(239,238,239,255);
+    text-align: center;
+}
+
+
